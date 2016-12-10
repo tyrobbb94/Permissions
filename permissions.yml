@@ -1,0 +1,111 @@
+groups:
+  default:
+    options:
+      default: 'true'
+      prefix: '&7[Alien] &7'
+      rank: '1000'
+    permissions:
+    - multichat.chat.mode 
+    - multichat.chat.msg
+    - multichat.chat.helpme
+  Staff:
+    options:
+      prefix: '&4[Staff] &c'
+      rank: '1'
+    permissions:
+    - multichat.staff.admin
+    - multichat.admin
+    - bungeecord.command.alert
+    - bungeecord.command.end
+    - bungeecord.command.ip
+    - bungeecord.command.reload
+    - '*'
+  Moderator:
+    inheritance:
+    - Member
+    - default
+    - VIP
+    - VIP+
+    - VIP++
+    options:
+      rank: '50'
+      prefix: '&4[Mod] &5'
+    permissions:
+    - multichat.staff.admin
+    - multichat.admin
+    - bungeecord.command.alert
+    - bungeecord.command.end
+    - bungeecord.command.ip
+    - bungeecord.command.reload
+    - essentials.*
+    - multichat.staff.*
+  Helper:
+    inheritance:
+    - Member
+    - default
+    options:
+      rank: '100'
+      prefix: '&6[Helper] &a'
+  VIP++:
+    inheritance:
+    - Member
+    - VIP
+    - VIP+
+    - default
+    options:
+      rank: '850'
+      prefix: '&2[VIP+] &a'
+  VIP+:
+    inheritance:
+    - Member
+    - default
+    - VIP
+    options:
+      rank: '830'
+      prefix: '&2[VIP+] &a'
+  VIP:
+    inheritance:
+    - Member
+    - default
+    options:
+      rank: '800'
+      prefix: '&2[VIP] &a'
+  Bigshot:
+    inheritance:
+    - Member
+    - default
+    options:
+      rank: '900'
+      prefix: '&3[Bigshot] &2'
+  25Milestone:
+    options:
+      rank: '925'
+  50Milestone:
+    options:
+      rank: '950'
+  75Milestone:
+    options:
+      rank: '975'
+  100Milestone:
+    options:
+      rank: '985'
+  Member:
+    inheritance:
+    - default
+    options:
+      rank: '975'
+      prefix: '&1[Member] &9'
+    permissions:
+    - multichat.group
+    - shards.us-0
+    - shards.command.use
+    - shards.us-1
+    - shard.us-0.pending
+    - gadgetsmenu.commands.checkcredits
+    - bungeecord.command.server
+    - modifyworld.*
+  Bubble0pond:
+    options:
+      group: Member
+schema-version: 1
+
