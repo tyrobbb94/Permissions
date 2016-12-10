@@ -1,0 +1,342 @@
+{
+    "subjects": {
+        "default": {
+            "default": [
+                {
+                    "contexts": {
+                        "localip": "127.0.0.1"
+                    },
+                    "permissions-default": 1
+                }
+            ],
+            "user": [
+                {
+                    "parents": [
+                        "group:default"
+                    ]
+                }
+            ]
+        },
+        "group": {
+            "admin": [
+                {
+                    "permissions-default": 1,
+                    "permissions": {
+                        "nucleus.blacklist.set.exempt.cooldown": 1,
+                        "nucleus.blacklist.list.base": 1,
+                        "nucleus.world.setspawn.exempt.cooldown": 1,
+                        "nucleus.blacklist.bypass": 1,
+                        "nucleus.world.border.gen.notify": 1,
+                        "nucleus.helpop.exempt.warmup": 1,
+                        "nucleus.blacklist.list.exempt.warmup": 1,
+                        "nucleus.warp.list.exempt.warmup": 1,
+                        "nucleus.chat.magic": 1,
+                        "nucleus.clear.selectors": 1,
+                        "nucleus.mail.send.exempt.warmup": 1,
+                        "nucleus.entityinfo.exempt.warmup": 1,
+                        "nucleus.world.base": 1,
+                        "nucleus.lore.set.exempt.cost": 1,
+                        "nucleus.sudo.exempt.warmup": 1,
+                        "nucleus.back.exempt.warmup": 1,
+                        "nucleus.repair.exempt.cost": 1,
+                        "nucleus.itemname.set.exempt.warmup": 1,
+                        "nucleus.mute.exempt.length": 1,
+                        "nucleus.speed.exempt.cost": 1,
+                        "nucleus.stop.base": -1,
+                        "nucleus.itemname.exempt.cost": 1,
+                        "nucleus.kit.base": 1,
+                        "nucleus.globalmute.voice.notify": 1,
+                        "nucleus.itemname.exempt.warmup": 1,
+                        "nucleus.nucleus.clearcache.base": 1,
+                        "nucleus.blacklist.set.exempt.warmup": 1,
+                        "nucleus.kill.exempt.warmup": 1,
+                        "nucleus.firstjoinkit.set.base": 1,
+                        "nucleus.suicide.exempt.cost": 1,
+                        "nucleus.world.border.gen.base": 1,
+                        "nucleus.spawn.otherworlds": 1,
+                        "nucleus.teleport.teleport.exempt.warmup": 1,
+                        "nucleus.teleport.tpa.exempt.cost": 1,
+                        "nucleus.realname.exempt.cooldown": 1,
+                        "nucleus.removewarning.base": 1,
+                        "nucleus.jail.set.base": 1,
+                        "nucleus.jump.exempt.cost": 1,
+                        "nucleus.blockinfo.exempt.cost": 1,
+                        "nucleus.nick.exempt.cooldown": 1,
+                        "nucleus.teleport.tpahere.force": 1,
+                        "nucleus.lightning.others": 1,
+                        "nucleus.iteminfo.exempt.cooldown": 1,
+                        "nucleus.teleport.tptoggle.exempt": 1,
+                        "nucleus.mail.send.exempt.cost": 1,
+                        "nucleus.weather.exempt.warmup": 1,
+                        "nucleus.kit.exempt.onetime": 1,
+                        "nucleus.fly.exempt.cost": 1,
+                        "nucleus.afk.notify": 1,
+                        "nucleus.repair.base": 1,
+                        "nucleus.heal.exempt.cost": 1,
+                        "nucleus.firstjoinkit.redeem.base": 1,
+                        "nucleus.world.setgamemode.base": 1,
+                        "nucleus.ignite.others": 1,
+                        "nucleus.world.border.gen.exempt.cost": 1,
+                        "nucleus.world.teleport.exempt.cooldown": 1,
+                        "nucleus.kickall.whitelist": 1,
+                        "nucleus.fly.exempt.warmup": 1,
+                        "nucleus.jump.exempt.warmup": 1,
+                        "nucleus.spawnmob.others": 1,
+                        "nucleus.teleport.tpa.exempt.cooldown": 1,
+                        "nucleus.nick.colour": 1,
+                        "nucleus.world.list.exempt.cooldown": 1,
+                        "nucleus.itemname.clear.exempt.warmup": 1,
+                        "nucleus.blacklist.exempt.cost": 1,
+                        "nucleus.world.create.exempt.cost": 1,
+                        "nucleus.warp.delete.exempt.cost": 1,
+                        "nucleus.more.exempt.warmup": 1,
+                        "nucleus.nucleus.resetuser.base": 1,
+                        "nucleus.message.magic": 1,
+                        "nucleus.itemname.set.exempt.cost": 1,
+                        "nucleus.nucleus.printperms.exempt.cooldown": 1,
+                        "nucleus.nucleus.printperms.base": 1,
+                        "nucleus.back.exempt.cooldown": 1,
+                        "nucleus.world.gamerule.base": 1,
+                        "nucleus.nucleus.migrate.esscmds.base": 1,
+                        "nucleus.nucleus.itemalias.exempt.cooldown": 1,
+                        "nucleus.blacklist.bypass.possesion": 1
+                    },
+                    "options": {
+                        "prefix": "&4[Staff] &c",
+                        "home": "25"
+                    }
+                }
+            ],
+            "default": [
+                {
+                    "permissions": {
+                        "nucleus.back.base": 1,
+                        "nucleus.mail.base": 1,
+                        "bungeecord.command.list": 1,
+                        "nucleus.home.list.base": 1,
+                        "nucleus.itembuy.base": 1,
+                        "nucleus.itemsell.base": 1,
+                        "nucleus.teleport.tptoggle.base": 1,
+                        "nucleus.afk.base": 1,
+                        "nucleus.rules.base": 1,
+                        "nucleus.chat.url": 1,
+                        "nucleus.teleport.tpa.selectors": 1,
+                        "nucleus.rtp.base": 1,
+                        "nucleus.teleport.tpdeny.base": 1,
+                        "bungeecord.command.alert": 1
+                    },
+                    "options": {
+                        "prefix": "&1[Member] &6",
+                        "home": "2"
+                    },
+                    "parents": [
+                        "group:75",
+                        "group:50",
+                        "group:25"
+                    ]
+                }
+            ],
+            "VIP": [
+                {
+                    "parents": [
+                        "group:default"
+                    ],
+                    "options": {
+                        "prefix": "&e[VIP] &6",
+                        "home": "6"
+                    },
+                    "permissions": {
+                        "nucleus.back.base": 1,
+                        "nucleus.chat.style": 1,
+                        "nucleus.nick.colour": 1,
+                        "nucleus.chat.color": 1,
+                        "nucleus.back.exempt.cooldown": 1,
+                        "nucleus.chat.colour": 1,
+                        "nucleus.nick.color": 1,
+                        "nucleus.nick.base": 1,
+                        "nucleus.nick.style": 1
+                    }
+                }
+            ],
+            "VIP++": [
+                {
+                    "parents": [
+                        "group:default"
+                    ],
+                    "options": {
+                        "prefix": "&e[VIP++] &6"
+                    }
+                }
+            ],
+            "VIP+": [
+                {
+                    "parents": [
+                        "group:default"
+                    ],
+                    "options": {
+                        "prefix": "&e[VIP+] &6"
+                    }
+                }
+            ],
+            "Bigshot": [
+                {
+                    "parents": [
+                        "group:default"
+                    ],
+                    "options": {
+                        "prefix": "&3[Bigshot] &9"
+                    }
+                }
+            ],
+            "Helper": [
+                {
+                    "parents": [
+                        "group:default"
+                    ],
+                    "options": {
+                        "prefix": "&b[Helper] &9",
+                        "home": "15"
+                    }
+                }
+            ],
+            "Moderator": [
+                {
+                    "parents": [
+                        "group:Helper",
+                        "group:default"
+                    ],
+                    "options": {
+                        "prefix": "&4[Moderator] &6",
+                        "home": "20"
+                    },
+                    "permissions": {
+                        "nucleus.staffchat.base": 1,
+                        "nucleus.connection.joinfullserver": 1,
+                        "nucleus.unban.base": 1,
+                        "nucleus.note.notify": 1,
+                        "nucleus.ban.notify": 1,
+                        "nucleus.tempban.exempt.target": 1,
+                        "nucleus.ban.base": 1,
+                        "nucleus.checknotes.base": 1,
+                        "nucleus.tempban.exempt.length": 1,
+                        "nucleus.teleport.tpahere.selectors": 1,
+                        "nucleus.teleport.teleport.base": 1,
+                        "nucleus.helpop.receive": 1,
+                        "nucleus.kick.notify": 1,
+                        "nucleus.warn.exempt.target": 1,
+                        "nucleus.checkmute.base": 1,
+                        "nucleus.socialspy.base": 1,
+                        "nucleus.checkban.base": 1,
+                        "nucleus.ban.exempt.target": 1,
+                        "nucleus.mute.exempt.target": 1,
+                        "nucleus.mute.notify": 1,
+                        "nucleus.note.base": 1,
+                        "nucleus.ignore.exempt.chat": 1,
+                        "nucleus.warn.base": 1,
+                        "nucleus.ban.offline": 1,
+                        "nucleus.note.showonlogin": 1,
+                        "nucleus.teleport.tpahere.base": 1,
+                        "nucleus.home.other.base": 1,
+                        "nucleus.kick.base": 1,
+                        "nucleus.mute.base": 1,
+                        "nucleus.warn.exempt.length": 1,
+                        "nucleus.kickall.base": 1,
+                        "nucleus.checkwarnings.base": 1
+                    }
+                }
+            ],
+            "25": [
+                {
+                    "options": {
+                        "home": "3"
+                    },
+                    "permissions": {
+                        "nucleus.nick.colour": 1,
+                        "nucleus.message.color": 1,
+                        "nucleus.hat.selectors": 1,
+                        "nucleus.message.colour": 1,
+                        "nucleus.hat.base": 1,
+                        "nucleus.nick.color": 1,
+                        "nucleus.nick.base": 1
+                    }
+                }
+            ],
+            "50": [
+                {
+                    "options": {
+                        "home": "5"
+                    },
+                    "permissions": {
+                        "nucleus.back.targets.teleport": 1,
+                        "nucleus.time.base": 1,
+                        "nucleus.time.set.base": 1
+                    }
+                }
+            ],
+            "75": [
+                {
+                    "options": {
+                        "home": "7"
+                    },
+                    "permissions": {
+                        "nucleus.heal.base": 1,
+                        "nucleus.heal.selectors": 1,
+                        "nucleus.weather.set.base": 1,
+                        "nucleus.weather.base": 1
+                    }
+                }
+            ],
+            "100": [
+                {
+                    "options": {
+                        "home": "10"
+                    },
+                    "permissions": {
+                        "nucleus.repair.selectors": 1,
+                        "nucleus.weather.fly.base": 1,
+                        "nucleus.weather.repair.base": 1,
+                        "nucleus.repair.base": 1
+                    }
+                }
+            ],
+            "helper": [
+                {
+                    "permissions": {
+                        "nucleus.teleport.tppos.selectors": 1,
+                        "nucleus.teleport.tppos.base": 1,
+                        "nucleus.teleport.tphere.base": 1,
+                        "nucleus.teleport.tphere.selectors": 1
+                    }
+                }
+            ]
+        },
+        "user": {
+            "736ca116-8a95-4c5e-bbc9-4045d86c920c": [
+                {
+                    "parents": [
+                        "group:admin"
+                    ],
+                    "options": {
+                        "name": "Bubble0seven"
+                    }
+                }
+            ]
+        }
+    },
+    "schema-version": 4,
+    "rank-ladders": {
+        "default": [
+            "group:default",
+            "group:VIP",
+            "group:VIP+",
+            "group:VIP++",
+            "group:Bigshot",
+            "group:Helper",
+            "group:Moderator"
+        ],
+        "milestones": [
+            "group:100"
+        ]
+    },
+    "context-inheritance": {}
+}
