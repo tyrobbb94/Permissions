@@ -104,8 +104,5 @@ groups:
     - gadgetsmenu.commands.checkcredits
     - bungeecord.command.server
     - modifyworld.*
-  Bubble0pond:
-    options:
-      group: Member
 schema-version: 1
 
