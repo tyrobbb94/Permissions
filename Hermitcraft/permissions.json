@@ -114,22 +114,29 @@
                         "nucleus.mail.base": 1,
                         "bungeecord.command.list": 1,
                         "nucleus.home.list.base": 1,
+                        "nucleus.teleport.tpahere.base": 1,
+                        "nucleus.home.base": 1,
                         "nucleus.itembuy.base": 1,
                         "nucleus.itemsell.base": 1,
                         "nucleus.teleport.tptoggle.base": 1,
                         "nucleus.afk.base": 1,
+                        "nucleus.home.set.base": 1,
+                        "nucleus.teleport.tpaccept.base": 1,
                         "nucleus.rules.base": 1,
                         "nucleus.chat.url": 1,
                         "nucleus.teleport.tpa.selectors": 1,
                         "nucleus.rtp.base": 1,
+                        "nucleus.teleport.tpa.base": 1,
                         "nucleus.teleport.tpdeny.base": 1,
                         "bungeecord.command.alert": 1
                     },
                     "options": {
+                        "home-count": "2",
                         "prefix": "&1[Member] &6",
                         "home": "2"
                     },
                     "parents": [
+                        "group:100",
                         "group:75",
                         "group:50",
                         "group:25"
@@ -254,8 +261,10 @@
                         "nucleus.nick.colour": 1,
                         "nucleus.message.color": 1,
                         "nucleus.hat.selectors": 1,
+                        "nucleus.chat.color": 1,
                         "nucleus.message.colour": 1,
                         "nucleus.hat.base": 1,
+                        "nucleus.chat.colour": 1,
                         "nucleus.nick.color": 1,
                         "nucleus.nick.base": 1
                     }
@@ -293,6 +302,7 @@
                     },
                     "permissions": {
                         "nucleus.repair.selectors": 1,
+                        "nucleus.fly.base": 1,
                         "nucleus.weather.fly.base": 1,
                         "nucleus.weather.repair.base": 1,
                         "nucleus.repair.base": 1
@@ -318,6 +328,33 @@
                     ],
                     "options": {
                         "name": "Bubble0seven"
+                    }
+                }
+            ],
+            "64e9624b-74f9-4cf7-8ef6-bdf3d48b7142": [
+                {
+                    "parents": [
+                        "group:VIP"
+                    ]
+                }
+            ],
+            "b6a8a4f0-9f72-41bb-a3c9-56c8e0aa5793": [
+                {
+                    "parents": [
+                        "group:VIP"
+                    ],
+                    "options": {
+                        "name": "Ztrat"
+                    }
+                }
+            ],
+            "6fc9d3ef-ffc2-4cfb-9d89-d8bc3519b1b3": [
+                {
+                    "parents": [
+                        "group:Moderator"
+                    ],
+                    "options": {
+                        "name": "sigsus"
                     }
                 }
             ]
