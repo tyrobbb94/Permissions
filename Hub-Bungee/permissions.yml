@@ -8,6 +8,28 @@ groups:
     - multichat.chat.mode 
     - multichat.chat.msg
     - multichat.chat.helpme
+    - gadgetsmenu.hats.hamburger
+    - gadgetsmenu.hats.chocolatedonut
+    - gadgetsmenu.hats.sandwich
+    - gadgetsmenu.hats.computer
+    - gadgetsmenu.hats.goldstevehead
+    - gadgetsmenu.hats.diamondstevehead
+    - gadgetsmenu.hats.emeraldstevehead
+    - gadgetsmenu.hats.scared
+    - gadgetsmenu.hats.angel
+    - gadgetsmenu.hats.embarrassed
+    - gadgetsmenu.hats.sad
+    - gadgetsmenu.hats.cool
+    - gadgetsmenu.hats.surprised
+    - gadgetsmenu.hats.dead
+    - gadgetsmenu.hats.cry
+    - gadgetsmenu.hats.grin
+    - gadgetsmenu.hats.wink
+    - gadgetsmenu.hats.derp
+    - gadgetsmenu.hats.mustache
+    - gadgetsmenu.hats.bigsmile
+    - gadgetsmenu.hats.smile
+    - gadgetsmenu.particles.heart
   Staff:
     options:
       prefix: '&4[Staff] &c'
@@ -22,6 +44,7 @@ groups:
     - '*'
   Moderator:
     inheritance:
+    - Helper
     - Member
     - default
     - VIP
@@ -46,6 +69,8 @@ groups:
     options:
       rank: '100'
       prefix: '&6[Helper] &a'
+    permissions:
+    - gadgetsmenu.*
   VIP++:
     inheritance:
     - Member
@@ -55,6 +80,23 @@ groups:
     options:
       rank: '850'
       prefix: '&2[VIP+] &a'
+   permissions:
+   - gadgetsmenu.discoarmor.*
+   - gadgetsmenu.emotes.*
+   - gadgetsmenu.gadgets.letitsnow
+   - gadgetsmenu.gadgets.tntfountain
+   - gadgetsmenu.gadgets.diamondshower
+   - gadgetsmenu.particles.witchspell
+   - gadgetsmenu.particles.babysleletonhorse
+   - gadgetsmenu.particles.babyundeadhorse
+   - gadgetsmenu.particles.skeleton
+   - gadgetsmenu.particles..witherskeleton
+   - gadgetsmenu.particles.blaze
+   - gadgetsmenu.particles.poweredcreeper
+   - gadgetsmenu.wardrobe.fuchsia.helmet
+   - gadgetsmenu.wardrobe.fuchsia.chestplate
+   - gadgetsmenu.wardrobe.fuchsia.leggings
+   - gadgetsmenu.wardrobe.fuchsia.boots
   VIP+:
     inheritance:
     - Member
@@ -63,6 +105,22 @@ groups:
     options:
       rank: '830'
       prefix: '&2[VIP+] &a'
+    permissions:
+    - gadgetsmenu.wardrobe.lime.boots
+    - gadgetsmenu.wardrobe.lime.leggings
+    - gadgetsmenu.wardrobe.lime.chestplate
+    - gadgetsmenu.wardrobe.lime.helmet
+    - gadgetsmenu.pets.golem
+    - gadgetsmenu.pets.creeper
+    - gadgetsmenu.pets.cavespider
+    - gadgetsmenu.pets.spider
+    - gadgetsmenu.pets.undeadhorse
+    - gadgetsmenu.pets.skeletonhorse
+    - gadgetsmenu.particles.mobspell
+    - gadgetsmenu.gadgets.explodingsheep
+    - gadgetsmenu.gadgets.partypopper
+    - gadgetsmenu.gadgets.batlauncher
+    - gadgetsmenu.banners.*
   VIP:
     inheritance:
     - Member
@@ -70,6 +128,7 @@ groups:
     options:
       rank: '800'
       prefix: '&2[VIP] &a'
+    permissions:
   Bigshot:
     inheritance:
     - Member
@@ -104,5 +163,36 @@ groups:
     - gadgetsmenu.commands.checkcredits
     - bungeecord.command.server
     - modifyworld.*
+    - gadgetsmenu.hats.clownfish
+    - gadgetsmenu.hats.duck
+    - gadgetsmenu.hats.earth
+    - gadgetsmenu.hats.mars
+    - gadgetsmenu.hats.astronaught
+    - gadgetsmenu.hats.miner
+    - gadgetsmenu.hats.monk
+    - gadgetsmenu.discoarmour.boots
+    - gadgetsmenu.emotes.smile
+    - gadgetsmenu.gadgets.melonlauncher
+    - gadgetsmenu.gadgets.discoball
+    - gadgetsmenu.gadgets.goldfountain
+    - gadgetsmenu.gadgets.catapult
+    - gadgetsmenu.gadgets.cowboy
+    - gadgetsmenu.gadgets.crytube
+    - gadgetsmenu.hats.netherlands
+    - gadgetsmenu.hats.norway
+    - gadgetsmenu.hats.sweden
+    - gadgetsmenu.hats.chile
+    - gadgetsmenu.hats.monaco
+    - gadgetsmenu.hats.canada
+    - gadgetsmenu.hats.unitedstates
+    - gadgetsmenu.hats.italy
+    - gadgetsmenu.hats.germany
+    - gadgetsmenu.hats.england
+    - gadgetsmenu.hats.singapore
+    - gadgetsmenu.hats.france
+    
+  Bubble0pond:
+    options:
+      group: Member
 schema-version: 1
 
