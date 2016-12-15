@@ -190,7 +190,54 @@ groups:
     - gadgetsmenu.hats.england
     - gadgetsmenu.hats.singapore
     - gadgetsmenu.hats.france
-    
+    - gadgetsmenu.hats.letter_a
+    - gadgetsmenu.hats.letter_b
+    - gadgetsmenu.hats.letter_c
+    - gadgetsmenu.hats.letter_d
+    - gadgetsmenu.hats.letter_e
+    - gadgetsmenu.hats.letter_f
+    - gadgetsmenu.hats.letter_g
+    - gadgetsmenu.hats.letter_h
+    - gadgetsmenu.hats.letter_i
+    - gadgetsmenu.hats.letter_j
+    - gadgetsmenu.hats.letter_k
+    - gadgetsmenu.hats.letter_l
+    - gadgetsmenu.hats.letter_m
+    - gadgetsmenu.hats.letter_n
+    - gadgetsmenu.hats.letter_o
+    - gadgetsmenu.hats.letter_p
+    - gadgetsmenu.hats.letter_q
+    - gadgetsmenu.hats.letter_r
+    - gadgetsmenu.hats.letter_s
+    - gadgetsmenu.hats.letter_t
+    - gadgetsmenu.hats.letter_u
+    - gadgetsmenu.hats.letter_v
+    - gadgetsmenu.hats.letter_w
+    - gadgetsmenu.hats.letter_x
+    - gadgetsmenu.hats.letter_y
+    - gadgetsmenu.hats.letter_z
+    - gadgetsmenu.hats.number_0
+    - gadgetsmenu.hats.number_1
+    - gadgetsmenu.hats.number_2
+    - gadgetsmenu.hats.number_3
+    - gadgetsmenu.hats.number_4
+    - gadgetsmenu.hats.number_5
+    - gadgetsmenu.hats.number_6
+    - gadgetsmenu.hats.number_7
+    - gadgetsmenu.hats.number_8
+    - gadgetsmenu.hats.number_9
+    - gadgetsmenu.hats.symbol_question
+    - gadgetsmenu.hats.symbol_exclamation
+    - gadgetsmenu.particles.watersplash
+    - gadgetsmenu.particles.dripwater
+    - gadgetsmenu.particles.crit
+    - gadgetsmenu.particles.enchantment
+    - gadgetsmenu.particles.flame
+    - gadgetsmenu.particles.fireworkspark
+    - gadgetsmenu.pets.chicken
+    - gadgetsmenu.pets.silverfish
+    - gadgetsmenu.pets.blackout
+    - gadgetsmenu.pets.wildocelot
   Bubble0pond:
     options:
       group: Member
