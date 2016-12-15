@@ -173,7 +173,9 @@
             "VIP++": [
                 {
                     "parents": [
-                        "group:default"
+                        "group:default",
+                        "group:VIP",
+                        "group:VIP+"
                     ],
                     "options": {
                         "namecolor": "6",
@@ -208,6 +210,9 @@
                 {
                     "parents": [
                         "group:default"
+                        "group:VIP",
+                        "group:VIP+",
+                        "VIP++"
                     ],
                     "options": {
                         "prefix": "&b[Helper] &9",
@@ -329,20 +334,6 @@
                         "nucleus.teleport.tphere.selectors": 1
                     }
                 }
-            ],
-            "defaul": [
-                {
-                    "parents": [
-                        "group:100"
-                    ]
-                }
-            ],
-            "defaut": [
-                {
-                    "parents": [
-                        "group:100"
-                    ]
-                }
             ]
         },
         "user": {
@@ -368,16 +359,6 @@
                 }
             ]
         },
-        "grou": {
-            "VIP": [
-                {
-                    "parents": [
-                        "group:100"
-                    ]
-                }
-            ]
-        }
-    },
     "schema-version": 4,
     "rank-ladders": {
         "default": [
