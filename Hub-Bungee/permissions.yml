@@ -80,23 +80,23 @@ groups:
     options:
       rank: '850'
       prefix: '&2[VIP+] &a'
-   permissions:
-   - gadgetsmenu.discoarmor.*
-   - gadgetsmenu.emotes.*
-   - gadgetsmenu.gadgets.letitsnow
-   - gadgetsmenu.gadgets.tntfountain
-   - gadgetsmenu.gadgets.diamondshower
-   - gadgetsmenu.particles.witchspell
-   - gadgetsmenu.particles.babysleletonhorse
-   - gadgetsmenu.particles.babyundeadhorse
-   - gadgetsmenu.particles.skeleton
-   - gadgetsmenu.particles..witherskeleton
-   - gadgetsmenu.particles.blaze
-   - gadgetsmenu.particles.poweredcreeper
-   - gadgetsmenu.wardrobe.fuchsia.helmet
-   - gadgetsmenu.wardrobe.fuchsia.chestplate
-   - gadgetsmenu.wardrobe.fuchsia.leggings
-   - gadgetsmenu.wardrobe.fuchsia.boots
+    permissions:
+    - gadgetsmenu.discoarmor.*
+    - gadgetsmenu.emotes.*
+    - gadgetsmenu.gadgets.letitsnow
+    - gadgetsmenu.gadgets.tntfountain
+    - gadgetsmenu.gadgets.diamondshower
+    - gadgetsmenu.particles.witchspell
+    - gadgetsmenu.particles.babysleletonhorse
+    - gadgetsmenu.particles.babyundeadhorse
+    - gadgetsmenu.particles.skeleton
+    - gadgetsmenu.particles..witherskeleton
+    - gadgetsmenu.particles.blaze
+    - gadgetsmenu.particles.poweredcreeper
+    - gadgetsmenu.wardrobe.fuchsia.helmet
+    - gadgetsmenu.wardrobe.fuchsia.chestplate
+    - gadgetsmenu.wardrobe.fuchsia.leggings
+    - gadgetsmenu.wardrobe.fuchsia.boots
   VIP+:
     inheritance:
     - Member
@@ -129,6 +129,41 @@ groups:
       rank: '800'
       prefix: '&2[VIP] &a'
     permissions:
+    - gadgetsmenu.discoarmor.leggings
+    - gadgetsmenu.emotes.cool
+    - gadgetsmenu.emotes.wink
+    - gadgetsmenu.gadgets.explosivebow
+    - gadgetsmenu.gadgets.painttrail
+    - gadgetsmenu.hats.endermen
+    - gadgetsmenu.hats.slime
+    - gadgetsmenu.hats.blaze
+    - gadgetsmenu.hats.ocelot
+    - gadgetsmenu.hats.enderdragon
+    - gadgetsmenu.hats.cavespider
+    - gadgetsmenu.hats.pigzombie
+    - gadgetsmenu.hats.chicken
+    - gadgetsmenu.hats.pig
+    - gadgetsmenu.hats.cow
+    - gadgetsmenu.hats.squid
+    - gadgetsmenu.hats.horse
+    - gadgetsmenu.particles.instantspell
+    - gadgetsmenu.pets.blacksmithvillager
+    - gadgetsmenu.pets.babyblacksmithvillager
+    - gadgetsmenu.pets.butchervillager
+    - gadgetsmenu.pets.babybutchervillager
+    - gadgetsmenu.pets.farmervillager
+    - gadgetsmenu.pets.babyfarmervillager
+    - gadgetsmenu.pets.librarianvillager
+    - gadgetsmenu.pets.babylibrarianvillager
+    - gadgetsmenu.pets.priestvillager
+    - gadgetsmenu.pets.babypriestvillager
+    - gadgetsmenu.pets.zombievillager
+    - gadgetsmenu.pets.babyzombievillager
+    - gadgetsmenu.pets.witch
+    - gadgetsmenu.wardrobe.aqua.helmet
+    - gadgetsmenu.wardrobe.aqua.chestplate
+    - gadgetsmenu.wardrobe.aqua.leggings
+    - gadgetsmenu.wardrobe.aqua.boots 
   Bigshot:
     inheritance:
     - Member
