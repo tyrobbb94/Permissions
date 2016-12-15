@@ -154,7 +154,7 @@
                     "options": {
                         "namecolor": "6",
                         "prefix": "&e[VIP] &6",
-                        "home": "6",
+                        "home": "4",
                         "namecolour": "6"
                     },
                     "permissions": {
@@ -178,9 +178,21 @@
                     "options": {
                         "namecolor": "6",
                         "prefix": "&e[VIP++] &6",
-                        "namecolour": "6"
-                    }
-                }
+                        "namecolour": "6",
+                        "home-count": "6"
+                    },
+                    "permissions": {
+                       "nucleus.back.base": 1,
+                       "nucleus.chat.style": 1,
+                       "nucleus.nick.colour": 1,
+                       "nucleus.chat.color": 1,
+                       "nucleus.back.exempt.cooldown": 1,
+                       "nucleus.chat.colour": 1,
+                       "nucleus.nick.color": 1,
+                       "nucleus.nick.base": 1,
+                       "nucleus.nick.style": 1
+                  }                
+              }
             ],
             "VIP+": [
                 {
@@ -212,7 +224,11 @@
                     "options": {
                         "prefix": "&b[Helper] &9",
                         "home": "15"
-                    }
+                    },
+                    "permisssions": {
+                        "nucleus.teleport.tpahere.selectors": 1,
+                        "nucleus.teleport.teleport.base": 1                      
+                   }
                 }
             ],
             "Moderator": [
@@ -223,7 +239,7 @@
                     ],
                     "options": {
                         "prefix": "&4[Moderator] &6",
-                        "home": "20"
+                        "home": "100"
                     },
                     "permissions": {
                         "nucleus.staffchat.base": 1,
@@ -257,7 +273,12 @@
                         "nucleus.mute.base": 1,
                         "nucleus.warn.exempt.length": 1,
                         "nucleus.kickall.base": 1,
-                        "nucleus.checkwarnings.base": 1
+                        "nucleus.checkwarnings.base": 1,
+                        "worldedit.*": 1,
+                        "sponge.*": 1,
+                        "nucleus.weather.base": 1,
+                        "nucleus.time.base": 1,
+                        "nucleus.nick.others": 1
                     }
                 }
             ],
@@ -330,20 +351,6 @@
                     }
                 }
             ],
-            "defaul": [
-                {
-                    "parents": [
-                        "group:100"
-                    ]
-                }
-            ],
-            "defaut": [
-                {
-                    "parents": [
-                        "group:100"
-                    ]
-                }
-            ]
         },
         "user": {
             "736ca116-8a95-4c5e-bbc9-4045d86c920c": [
@@ -367,16 +374,6 @@
                     }
                 }
             ]
-        },
-        "grou": {
-            "VIP": [
-                {
-                    "parents": [
-                        "group:100"
-                    ]
-                }
-            ]
-        }
     },
     "schema-version": 4,
     "rank-ladders": {
@@ -394,4 +391,5 @@
         ]
     },
     "context-inheritance": {}
+    }
 }
